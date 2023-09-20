@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #49a078;
+  padding: 20px 130px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  font-size: 16px;
+}
+
+nav ul a {
+  color: #fff;
+}
+
+nav ul a:hover {
+  color: #e5e5e5;
+}
+
+.authentication a {
+  margin-right: 5px;
+}
+
+.login,
+.register {
+  box-sizing: border-box;
+  padding: 8px 30px;
+  border: 1px solid #216869;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.login {
+  background-color: #216869;
+}
+
+.register:hover,
+.login:hover {
+  background-color: #267879;
+}
+
+#hero {
+  padding: 150px 130px;
+  background-color: #49a078;
+  color: #fff;
+  display: flex;
+}
+
+.hero-text {
+  margin-top: 120px;
+  width: 618px;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+}
+
+.hero-text #description {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.hero-text #link {
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 12px 41px;
+  color: #fff;
+  background-color: #216869;
+  border-radius: 5px;
+}
+
+.hero-text #link:hover {
+  background-color: #267879;
+}
+
+.hero-img {
+  position: relative;
+  right: -120px;
+}
+
+.hero-img #circle {
+  width: 458px;
+  height: 458px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  border-radius: 50%;
+  background-color: #41b57f;
+}
+
+.image {
+  position: relative;
+  width: 500px;
+}
+
+#advantages {
+  padding: 150px 130px;
+}
+
+.containers {
+  display: flex;
+}
+
+.advantages-img {
+  width: 430px;
+  position: relative;
+}
+
+.advantages-img #square {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  bottom: 55px;
+  background-color: #49a078;
+  border-radius: 10px;
+}
+
+.advantages-text > h1 {
+  font-size: 40px;
+}
+
+.advantages-text span {
+  color: #49a078;
+}
+
+.advantages-text > p {
+  font-size: 18px;
+}
+
+#advantages-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+#advantages-list > div {
+  width: 220px;
+  padding: 20px 20px;
+  background-color: #49a078;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.advantages-icons {
+  width: 80px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#advantages-desc {
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+#doctor {
+  padding: 50px 130px;
+}
+
+#doctor div:nth-child(1) {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#doctor div h1 {
+  font-size: 40px;
+}
+
+#doctor span {
+  color: #49a078;
+}
+
+#doctor-profile {
+  margin-top: 80px;
+  display: flex;
+}
+
+#doctor-desc {
+  margin: 85px 80px;
+}
+
+#doctor-desc h1 {
+  font-size: 36px;
+}
+
+#doctor-desc h2 {
+  font-size: 20px;
+  color: #49a078;
+}
+
+#doctor-desc p {
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+#doctor-desc a {
+  background-color: #49a078;
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 5px;
+}
+
+#doctor-desc a:hover {
+  background-color: #267879;
+}
+
+#form {
+  padding: 70px 330px;
+  text-align: center;
+}
+
+#form h1 {
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+#form label {
+  font-size: 18px;
+}
+
+#name,
+#email,
+#city,
+#zip-code {
+  width: 40%;
+  height: 40px;
+  border: 1px solid #949494;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+#form input:focus {
+  outline: none;
+  border: 2px solid #49a078;
+}
+
+#form #check {
+  font-size: 14px;
+}
+
+#submit-form {
+  width: 42%;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #49a078;
+  color: #fff;
+}
+
+#submit-form:hover {
+  background-color: #267879;
+}
+
+#warning {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ff0000;
+}
+
+footer {
+  background-color: #49a078;
+  color: #fff;
+  padding: 50px 130px 30px 130px;
+}
+
+footer .containers {
+  justify-content: space-between;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer a:hover {
+  color: #e5e5e5;
+}
+
+#footer-info {
+  display: flex;
+  gap: 50px;
+}
+
+#footer-profile {
+  width: 450px;
+}
+
+#footer-profile p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+footer h1 {
+  font-size: 20px;
+}
+
+#footer-feature li {
+  list-style: none;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#footer-contact address {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#footer-contact address p {
+  margin: 8px 0;
+}
+
+#footer-news {
+  width: 200px;
+  font-size: 14px;
+}
+
+#footer-news p {
+  margin-top: 10px;
+}
+
+#footer-news input {
+  width: 92%;
+  height: 23px;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 8px;
+  margin-top: 10px;
+}
+
+#subs-form {
+  position: relative;
+}
+
+#subs-button {
+  width: 34px;
+  height: 23px;
+  background-color: #263238;
+  border-radius: 10px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#copyright {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#copyright span {
+  font-weight: 600;
+  color: #263238;
+}
